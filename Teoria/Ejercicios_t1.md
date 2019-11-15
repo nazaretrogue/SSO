@@ -45,7 +45,28 @@ el puesto o estatus dentro de ésta.
 ## Ejercicio 3
 **Cómo podemos clasificar los ataques y cómo se relacionan con la triada CIA.**
 
+Los ataques se pueden clasificar según a qué atacan concretamente de la triada
+CIA, es decir, según si están centrados en atacar la confidencialidad, la
+integridad o la disponibilidad:
 
+* Ataques contra la confidencialidad: revelación.
+    * Exposición: se exponen datos sensibles a entidades no autorizadas.
+    * Intrusión: se accede a un sistema sin tener la autorización para ello.
+* Ataques contra la integridad: engaño.
+    * Falsificación: se engaña a una entidad autorizada mediante el uso de datos
+    falsos.
+    * Mascarada: una entidad no autorizada gana el acceso a un sistema haciéndose
+    pasar por una entidad autorizada.
+* Ataques contra la disponibilidad: alteración.
+    * Incapacitación: se evita que el sistema pueda llevar a cabo las operaciones
+    mediante una interrupción.
+    * Corrupción: se altera el funcionamiento del sistema modificando funciones
+    o datos.
+* Ataques mixtos:
+    * Malversación: entidad que asume el control físico o lógico de los recursos
+    del sistema. Ataca a la integridad y disponibilidad (y puede que la confidencialidad).
+    * Mal uso: provoca que un componente no lleve a cabo correctamente su funcionalidad.
+    Ataca a la disponibilidad (y puede que a la confidencialidad y la integridad).
 
 ## Ejercicio 4
 **Comentar brevemente tres de las posibles contramedidas para protegernos de una
@@ -68,3 +89,9 @@ sistema informático lo forman.**
 El TCB (*Trusted computer base*) es un conjunto de elementos hardware, firmware y
 software que se encargan de asegurar el sistema mediante unos requisitos. Todo lo
 que no forma parte del TBC es, por tanto, inseguro.
+
+Forman parte del TCB:
+* Mecanismos de arranque dell sistema que habilitan la carga de objetivos de seguridad.
+* El sistema operativo al completo.
+* Algunas utilidades extra, como el login o ssh.
+* El entorno de ventanas X-windows.
