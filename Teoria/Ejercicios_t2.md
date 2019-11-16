@@ -3,7 +3,7 @@
 ## Ejercicio 1
 **Indicar las ventajas e inconvenientes de una autenticación multifactor (MFA).**
 
-La autenticación multifactor se da cuando utilizamos dos o más mediso de autenticación.
+La autenticación multifactor se da cuando utilizamos dos o más medidas de autenticación.
 
 Entre los pros están:
 * Mayor seguridad, puesto que es más complicado conseguir las claves/contraseñas
@@ -80,7 +80,7 @@ se llevan a cabo las comprobaciones genéricas de errores, y tras ellas, los
 chequeos con DAC. Si éstos son correctos, se pasaría a los hooks de LSM, y si estos
 son correctos, se ejecutarían las comprobaciones de MAC.
 
-Es decir, que ambos sistemas conviban juntos significa una capa extra de seguridad
+Es decir, que ambos sistemas convivan juntos significa una capa extra de seguridad
 donde garantizamos que la política de seguridad establecida en el sistema se
 está cumpliendo.
 
@@ -99,7 +99,7 @@ diferentes casos o sitios.**
 
 Un primer método para crear claves es utilizando la técnica de *persona, acción,
 objeto*, de forma que se generen contraseñas relativamente largas, un poco
-aleatorias pero que, al seguir una regla nemotécnica son fáciles de recordar.
+aleatorias pero que, al seguir una regla nemotécnica, son fáciles de recordar.
 
 También se pueden generar las claves utilizando letras de canciones que puedan
 gustar a la persona o frases de libros, generando una contraseña larga y que
